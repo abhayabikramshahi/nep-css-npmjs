@@ -1,19 +1,35 @@
 {
-  "name": "abhaya-css",
+  "name": "nep-css-framework",
   "version": "1.0.0",
-  "description": "Abhaya CSS framework for modern web development.",
-  "main": "index.css",
-  "scripts": {
-    "build": "postcss index.css -o dist/abhaya.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "This is the simple and easy to learn framework developed by Abhaya",
+  "keywords": [
+    "nep-css-framework",
+    "css",
+    "framework",
+    "nepal"
+  ],
+  "homepage": "https://github.com/abhayabikramshahi/nep-css-npmjs#readme",
+  "bugs": {
+    "url": "https://github.com/abhayabikramshahi/nep-css-npmjs/issues"
   },
-  "keywords": ["css", "framework", "abhaya", "postcss"],
-  "author": "",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhayabikramshahi/nep-css-npmjs.git"
+  },
+  "license": "ISC",
+  "author": "Abhaya Bikram Shahi",
   "type": "commonjs",
+  "main": "index.js",
+  "style": "dist/nep.css",
+  "scripts": {
+    "build": "postcss src/nep.css -u autoprefixer cssnano -o dist/nep.css",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"No test specified\" && exit 0"
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.1.1",
+    "postcss": "^8.5.6",
     "postcss-cli": "^11.0.1"
   }
 }
