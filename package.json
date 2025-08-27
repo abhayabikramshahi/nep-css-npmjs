@@ -19,8 +19,15 @@
   "license": "ISC",
   "author": "Abhaya Bikram Shahi",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "dist/nep.css",
   "style": "dist/nep.css",
+  "exports": {
+    ".": {
+      "import": "./dist/nep.css",
+      "require": "./dist/nep.css",
+      "default": "./dist/nep.css"
+    }
+  },
   "scripts": {
     "build": "postcss src/nep.css -u autoprefixer cssnano -o dist/nep.css",
     "prepublishOnly": "npm run build",
