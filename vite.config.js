@@ -6,11 +6,13 @@ export default defineConfig({
     outDir: 'dist',
     emptyOutDir: true,
     rollupOptions: {
-      input: {
-        main: 'index.js',
-        style: 'index.css',
+      input: 'src/nep.css',
+      output: {
+        entryFileNames: 'nep.css',
       },
     },
+    cssCodeSplit: false,
+    minify: false,
   },
   server: {
     open: true,
