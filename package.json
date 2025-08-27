@@ -19,7 +19,6 @@
   "license": "ISC",
   "author": "Abhaya Bikram Shahi",
   "type": "commonjs",
-  "main": "dist/nep.css",
   "style": "dist/nep.css",
   "exports": {
     ".": {
