@@ -29,18 +29,3 @@
 .thulo-rakh {
   font-size: 24px;
 }
-
-/* Padding & Margin */
-.p-1 { padding: 4px; }
-.p-2 { padding: 8px; }
-.p-3 { padding: 12px; }
-
-.m-1 { margin: 4px; }
-.m-2 { margin: 8px; }
-.m-3 { margin: 12px; }
-
-/* Border */
-.border-rato {
-  border: 2px solid #e60000;
-  border-radius: 6px;
-}
