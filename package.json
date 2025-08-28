@@ -1,6 +1,6 @@
 {
   "name": "nep-css-framework",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "This is the simple and easy to learn framework developed by Abhaya",
   "keywords": [
     "nep-css-framework",
@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-  "build": "postcss src/nep.css -u autoprefixer cssnano -o dist/nep.css",
+    "build": "postcss src/nep.css -u autoprefixer cssnano -o dist/nep.css",
     "prepublishOnly": "npm run build",
     "test": "echo \"No test specified\" && exit 0"
   },
