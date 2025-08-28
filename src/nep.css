@@ -29,3 +29,14 @@
 .thulo-rakh {
   font-size: 24px;
 }
+
+:root {
+  --abhaya-font: 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+body {
+  font-family: var(--abhaya-font);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

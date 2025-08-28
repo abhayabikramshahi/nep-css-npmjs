@@ -1,13 +1,5 @@
 @import "./src/nep.css";
-
-/* ✅ Default Font Family */
-:root {
-  --abhaya-font: 'Poppins', 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-}
-
-body {
-  font-family: var(--abhaya-font);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import "./src/buttons.css";
+@import "./src/card.css";
+@import "./src/fonts.css";
+@import "./src/responsive.css";
