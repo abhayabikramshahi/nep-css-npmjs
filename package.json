@@ -28,7 +28,7 @@
     }
   },
   "scripts": {
-    "build": "postcss src/nep.css -u autoprefixer cssnano -o dist/nep.css",
+    "build": "postcss index.css -u autoprefixer cssnano -o dist/nep.css",
     "prepublishOnly": "npm run build",
     "test": "echo \"No test specified\" && exit 0"
   },
